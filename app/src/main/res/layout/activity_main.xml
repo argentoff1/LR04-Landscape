@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    <ImageView
+        android:contentDescription="@string/sky"
+        android:id="@+id/sky"
+        android:layout_height="fill_parent"
+        android:src="@drawable/sky"
+        layoutwidth="fill_parcnt" />
+    <ImageView
+        android:
+        android:contentDescription="@string/sun"
+        android:layout
+        android:layout_height="wrap content"
+        android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sun"
+        centerHorizontal="true"
+        id="@+id/sun" />
+    <ImageView
+        :id="@+id/grass"
+        alignParentBottom="true"
+        android
+        android:contentDescription="@string/grass"
+        android:layout
+        android:layout
+        android:layout_width="fill_parent"
+        android:src="@drawable/grass"
+        height=" 150dp" />
+</RelativeLayout>
